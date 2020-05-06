@@ -23,16 +23,17 @@ ingresso = 8.0;
 else{
 ingresso = 10.0;
 }
-consumo = cervejas * 5.0 + refri * 3.0 + espetos * 7.0
+consumo = cervejas * 5.0 + refri * 3.0 + espetos * 7.0;
 if(consumo > 30.0){
 couvert = 0.0;
+}
 else{
 couvert = 4.0;
 }
-total = ingresso + consumo + couvert
+total = ingresso + consumo + couvert;
 
 cout << fixed << setprecision(2);
-cout << endl << "RELATORIO:" << endl
+cout << endl << "RELATORIO:" << endl;
 cout << "Consumo = R$ " << consumo << endl;
 if (couvert == 0.0){
 cout << "Isento de Couvert" << endl;
